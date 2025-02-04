@@ -21,23 +21,19 @@ builder.Services.AddCors(options => options.AddPolicy("EnableAll", cors =>
 }));
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("database")));
-builder.Services.AddHttpContextAccessor(); 
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+if (app.Environment.IsDevelopment()) app.MapOpenApi();
 
 app.UseResponseCaching();
 
 app.UseCors("EnableAll");
 
 app.MapControllers();
-
 
 
 app.Run();

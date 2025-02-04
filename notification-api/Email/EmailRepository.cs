@@ -11,11 +11,11 @@ public class EmailRepository(DatabaseContext context) : IEmailRepository
 
         await context.SaveChangesAsync();
 
-        return new CreatedResult("GetSingleEmail", createdEmail); 
+        return new CreatedResult("GetSingleEmail", createdEmail);
     }
 
     public async Task<List<EmailModel>> GetEmails(string userId)
     {
-        return await context.Emails.ToListAsync(); 
+        return await context.Emails.ToListAsync();
     }
 }

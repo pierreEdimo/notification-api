@@ -31,8 +31,7 @@ namespace notification_api.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Body")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("From")
                         .HasMaxLength(255)
