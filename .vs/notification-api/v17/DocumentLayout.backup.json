@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pierr\\Desktop\\workspace\\houlala_v2\\notification-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA70DE5-1C3B-46C6-A76C-4BCE18B765FC}|notification-api\\notification-api.csproj|c:\\users\\pierr\\desktop\\workspace\\houlala_v2\\notification-api\\notification-api\\email\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA70DE5-1C3B-46C6-A76C-4BCE18B765FC}|notification-api\\notification-api.csproj|solutionrelative:notification-api\\email\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailModel.cs",
+              "DocumentMoniker": "C:\\Users\\pierr\\Desktop\\workspace\\houlala_v2\\notification-api\\notification-api\\Email\\EmailModel.cs",
+              "RelativeDocumentMoniker": "notification-api\\Email\\EmailModel.cs",
+              "ToolTip": "C:\\Users\\pierr\\Desktop\\workspace\\houlala_v2\\notification-api\\notification-api\\Email\\EmailModel.cs",
+              "RelativeToolTip": "notification-api\\Email\\EmailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:57:48.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

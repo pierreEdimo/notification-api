@@ -15,7 +15,6 @@ public class EmailModel
 
     [MaxLength(255)] public string? Subject { get; init; }
 
-
     public DateTime? SentAt { get; init; } = DateTime.UtcNow;
 
     [Column(TypeName = "TEXT")]

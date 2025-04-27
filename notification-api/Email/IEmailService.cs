@@ -1,6 +1,7 @@
-namespace notification_api.Email;
-
-public interface IEmailService
+namespace notification_api.Email
 {
-    void SendEmail(EmailModel email);
+    public interface IEmailService
+    {
+        void SendEmail(EmailModel email);
+    }
 }
